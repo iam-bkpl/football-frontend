@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dddd;
+}
+
+h1 {
+    font-size: 1.9rem;
+}
+
+.header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./imgs/header.jpg') no-repeat center center/cover;
+    height: 40vh;
+}
+
+.inner-header {
+    color: #ffff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-header h2 {
+    font-size: 3rem;
+    margin: 0px 0px 0px 0px;
+}
+
+.btn_main {
+    text-align: center;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.status {
+    width: 100%;
+    background-color: #e8e8e8;
+    padding: 10px 20px;
+    border: 3px solid #d6d4d4;
+    font-size: 20px;
+    display: block;
+    margin-top: 1.5rem;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.imgs {
+    margin-bottom: 5rem;
+}
+
+.players-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.players-main .card img {
+    height: 250px;
+    width: 100%;
+}
+
+.form {
+    max-width: 500px;
+    width: 100%;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group input {
+    border: none;
+    outline: none;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    padding: 13px 17px;
+}
+
+.form-group input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.searchBtn {
+    color: #0652DD;
+    font-weight: bolder;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 4px;
+    right: 2%;
+    font-size: 27px;
+    transition: .2s;
+    padding: 0px 5px;
+}
+
+.searchBtn:active {
+    background-color: #0652DD;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+
+.loading {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 1024;
+}
+
+.players {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.error.showError {
+    color: red;
+}
+
+.error {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+@media(max-width: 768px) {
+    .inner-header h2 {
+        font-size: 2rem;
+        margin-left: 1.4rem;
+    }
+    .players-main {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,201 @@
+@media(max-width: 992px) {
+    .score-card-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .about .about-hero-img img {
+        height: 100%;
+    }
+    .about {
+        height: 100%;
+        transform: translate(0);
+        margin-bottom: 5rem;
+    }
+    .latest-news-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .main-menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        margin: 0;
+        height: 100vh;
+        width: 300px;
+        background-color: #111;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        transition: 1.5s;
+        /* transform: translateX(-100%); */
+    }
+    nav {
+        position: relative;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    .nav-bar1 {
+        margin-top: 2rem;
+    }
+    .nav-bar1::after {
+        position: absolute;
+        top: -8px;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: #92426B;
+    }
+    .nav-bar2::after {
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 4px;
+        background-color: #92426B;
+    }
+    .nav-bar2 {
+        margin-bottom: 2rem;
+    }
+    .logo2,
+    .humburger {
+        display: block;
+        transition: .3s;
+    }
+    .humburger:hover {
+        color: #92426B;
+    }
+    .logo1 {
+        display: none;
+    }
+    .logo2 a>img {
+        width: 70px;
+        height: 70px;
+    }
+    .logo3 {
+        position: relative;
+    }
+    .logo3 .nav-closebtn {
+        position: absolute;
+        top: 7%;
+        right: -158%;
+        color: #fff;
+        padding: .5rem;
+        cursor: pointer;
+    }
+    .logo3 .nav-closebtn>div {
+        height: 2px;
+        margin-bottom: .5rem;
+        width: 40px;
+        background-color: #fff;
+        transition: all .5s;
+    }
+    .logo3 .nav-closebtn .line1 {
+        transform: rotate(-45deg) translateY(7px);
+    }
+    .logo3 .nav-closebtn .line2 {
+        transform: rotate(45deg) translateY(-7px);
+    }
+    .header-2 .inner-header h1 {
+        font-size: 4rem;
+    }
+    .club-headline {
+        font-size: 3rem;
+    }
+    .about .inner-about .about-headTxt {
+        font-size: 3rem;
+    }
+    .desc-cards .card {
+        border: none;
+    }
+    .players-slide .player-inner-slider {
+        grid-template-columns: repeat(7, 300px);
+    }
+    .header.sticky {
+        padding: 0px 0px;
+        height: 60px;
+    }
+    .header .logo2 .logo-main.sticky {
+        width: 60px;
+        height: 60px;
+        transition: .5s;
+        background-color: #111;
+    }
+    .dropdown-menu {
+        width: 0;
+    }
+}
+
+@media(max-width: 768px) {
+    .header2 {
+        margin-bottom: 30rem;
+    }
+    .header-2 .inner-header h1 {
+        font-size: 2.1rem;
+    }
+    .header-2 .sub-headline {
+        font-size: 1.1rem;
+    }
+    .club-headline {
+        font-size: 2.3rem;
+        letter-spacing: normal;
+    }
+    .club-sect-inner>span {
+        font-size: 10px;
+    }
+    .club-sect .club-sub-headline {
+        font-size: 1.1rem;
+    }
+    .club-sect .club-btns a {
+        font-size: .8rem;
+    }
+    .about .inner-about .about-headTxt {
+        font-size: 2rem;
+    }
+    .principle-headline h3 {
+        font-size: 2rem;
+    }
+    .principles .principles-cards .cards-symbols {
+        font-size: 1.9rem;
+    }
+    .principles .principles-cards h4 {
+        font-size: 1.2rem;
+    }
+    .principles .principle-headline p {
+        font-size: 1rem;
+    }
+    .score-card-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .our-players .players-headline h3,
+    .game-schedule-headline h3 {
+        font-size: 2rem;
+    }
+    .game-schedule-headline p {
+        font-size: .8rem;
+    }
+    .desc-cards .card-icon>span {
+        font-size: 2rem;
+    }
+    .latest-news .latest-news-headline h2 {
+        font-size: 2.2rem;
+    }
+    .score-card-wrapper .card-body .score-count {
+        font-size: 3rem;
+        display: flex;
+        margin: 0px 0px;
+    }
+    .score-card-wrapper .card .img-score img {
+        height: 60px;
+        width: 60px;
+    }
+    .players-slide .player-inner-slider {
+        grid-template-columns: repeat(7, 300px);
+    }
+    .latest-news-cards {
+        grid-template-columns: 1fr;
+    }
+    .footer {
+        padding-bottom: 0px;
+    }
+}

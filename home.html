@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- AOS css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- slick slider css-->
+    <link rel="stylesheet" href="slick slider/slick.css">
+    <link rel="stylesheet" href="slick slider/slick-theme.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="home.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="media-query.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="humburger">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+        <div class="logo logo2">
+            <a href="#">
+                <img class="logo-main" src="./page-imgs/white_races_logo_02.png" alt="logo image">
+            </a>
+        </div>
+        <div class="main-menu">
+            <div class="logo logo3 d-md-block d-lg-none">
+                <a href="#">
+                    <img src="./page-imgs/white_races_logo_02.png" alt="logo image">
+                </a>
+
+                <div class="nav-closebtn">
+                    <!-- <i class="fas fa-times fa-2x"></i> -->
+                    <div class="line1 lines"></div>
+                    <div class="line2 lines"></div>
+                </div>
+            </div>
+            <nav class="nav-bar1">
+                <ul>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-items dropdown">
+                        <a href="#" class="nav-link">About Us</a>
+                        <!-- sub menu -->
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-items dropdown">
+                        <a href="#" class="nav-link">Games</a>
+
+                        <!-- sub menu -->
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="logo logo1">
+                <a href="#">
+                    <img class="logo-main" src="./page-imgs/white_races_logo_02.png" alt="logo image">
+                </a>
+            </div>
+            <nav class="nav-bar2">
+                <ul>
+                    <li class="nav-items dropdown">
+                        <a href="#" class="nav-link">Blog</a>
+
+                        <!-- sub menu -->
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-items dropdown">
+                        <a href="#" class="nav-link">Shop</a>
+                        <!-- sub menu -->
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-items dropdown">
+                        <a href="#" class="nav-link">Contact</a>
+                        <!-- sub menu -->
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Overview</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">About our product</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Review us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="social-links d-flex me-4 justify-content-center align-items-center">
+                <a href="#" class="user-login nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fas fa-user"></i>
+                </a>
+                <a class="nav-link" href="./serach-items/serach.html" title="Click to Search">
+                    <i class="fas fa-search"></i></a>
+                <a class="nav-link" href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a class="nav-link" href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="nav-link" href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="overlay">
+
+        </div>
+
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- modal form -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header d-md-block">
+                        <div class="modal-close mb-4">
+                            <!-- modal close button -->
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- tabs -->
+                        <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                            <li class="nav-item me-2" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Log In</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Register</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-body">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <!-- log in form -->
+                                <form action="" class="log-form">
+                                    <div class="form-group">
+                                        <label for="username">Username or Email</label>
+                                        <input type="text" id="username" class="form-control" placeholder="Enter your Username or Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input type="password" id="password" class="form-control" placeholder="Enter your password">
+                                    </div>
+                                    <button type="submit" class="submit custom-btn btn-3"><span>Log In</span></button>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <!-- Registration form -->
+                                <form action="" class="log-form">
+                                    <div class="form-group">
+                                        <label for="email address">Email Address</label>
+                                        <input type="email" id="email" class="form-control" placeholder="Enter your or Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="reg-password">Create Passsword</label>
+                                        <input type="password" id="reg-password" class="form-control" placeholder="Choose a password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="reg-password2">Confirm Password</label>
+                                        <input type="password" id="reg-password2" class="form-control" placeholder="Confirm password">
+                                    </div>
+
+                                    <button type="submit" class="submit custom-btn btn-3"><span>Register</span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /modal form -->
+        <header class="header-2">
+            <!-- inner header -->
+            <div class="inner-header mb-5">
+                <div class="sub-headline">
+                    <span>Oxygen Football</span>
+                </div>
+                <h1 class="head-line">
+                    <strong style="color: #cccccc">Attitude</strong> <i style="font-weight: 400;">is</i> <span style="font-weight: 400;">Everything</span>
+                </h1>
+            </div>
+        </header>
+
+        <!-- score cards -->
+        <div class="score-card-wrapper container-fluid px-5">
+            <div class="card">
+                <div class="card-body">
+                    <div class="img-score">
+                        <img src="./page-imgs/races_logo_01.png" alt="rece-logo">
+                        <h6>La Liga</h6>
+                    </div>
+                    <div class="score-count">
+                        <span class="score-num" data-target="5">0</span>
+                        <span class="score-num" data-target="7">0</span>
+                    </div>
+                    <div class="img-score">
+                        <img src="./page-imgs/races_logo_02.png" alt="rece-logo">
+                        <h6>Bercelona</h6>
+                    </div>
+                </div>
+                <div class="btn-details text-center">
+                    <a href="#" class="btn-main">game details</a>
+                </div>
+            </div>
+            <!-- score cards 2 -->
+            <div class="card">
+                <div class="card-body">
+                    <div class="img-score">
+                        <img src="./page-imgs/races_logo_03.png" alt="rece-logo">
+                        <h6>Real madrid</h6>
+                    </div>
+                    <div class="score-count">
+                        <span class="score-num" data-target="3">0</span>
+
+                        <span class="score-num" data-target="8">0</span>
+                    </div>
+                    <div class="img-score">
+                        <img src="./page-imgs/races_logo_05.png" alt="rece-logo">
+                        <h6>Chelsea</h6>
+                    </div>
+                </div>
+                <div class="details-btn text-center">
+                    <a href="#" class="btn-main">game details</a>
+                </div>
+            </div>
+        </div>
+        <!-- club section -->
+        <section class="club-sect" data-aos="fade">
+            <div class="club-sect-inner">
+                <div class="row">
+                    <div class="club-desc col-lg-6 col-md-12">
+                        <span class="fs-3 text-uppercase">
+                            From the club
+                        </span>
+                        <h2 class="club-headline">Foodball club
+                            <span class="span-color fw-bolder">Timetable</span>
+                        </h2>
+                        <p class="club-sub-headline">All awards recognize the players with the highest percentage of overall improvement in all events.
+                        </p>
+
+                        <p class="mb-4">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall.
+                        </p>
+
+                        <div class="club-btns mb-4">
+                            <a href="#" class="btn-main mb-3">our location</a>
+                            <a href="#" class="btn-main main-btn-2">learn more</a>
+                        </div>
+                    </div>
+
+                    <div class="club-timeLi col-lg-6 col-md-12">
+                        <div class="row">
+                            <div class="time-schedule1 col-lg-6 col-md-12">
+                                <ul class="schedule mb-4">
+                                    <div class="schedule-head d-flex justify-content-space-between">
+                                        <strong>Senior Team</strong>
+                                        <span><i class="fas fa-map-marker-alt"></i> main station</span>
+                                    </div>
+                                    <li>monday <span>10am - 11am</span></li>
+                                    <li>tuesday <span>2pm - 3pm</span></li>
+                                    <li>wednesday <span>10pm - 11pm</span></li>
+                                    <li>Friday <span>7pm - 9pm</span></li>
+                                    <li>saturday <span>9am - 8am</span></li>
+                                    <li>sunday <span>10pm - 11pm</span></li>
+                                </ul>
+                            </div>
+                            <div class="time-schedule2 col-lg-6 col-md-12">
+                                <ul class="schedule mb-4">
+                                    <div class="schedule-head d-flex justify-content-space-between">
+                                        <strong>Senior Team</strong>
+                                        <span><i class="fas fa-map-marker-alt"></i> main station</span>
+                                    </div>
+                                    <li>monday <span>10am - 11am</span></li>
+                                    <li>tuesday <span>2pm - 3pm</span></li>
+                                    <li>wednesday <span>10pm - 11pm</span></li>
+                                </ul>
+                                <ul class="schedule">
+                                    <div class="schedule-head d-flex justify-content-space-between">
+                                        <strong>Senior Team</strong>
+                                        <span><i class="fas fa-map-marker-alt"></i> main station</span>
+                                    </div>
+                                    <li>monday <span>10am - 11am</span></li>
+                                    <li>tuesday <span>2pm - 3pm</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ club section -->
+
+        <!-- Game schedules section -->
+        <section class="game-schedule" data-aos="fade">
+            <div class="game-schedule-headline mb-5">
+                <span>Professional stuff</span>
+                <h3>Games <strong style="color: #cccccc">schedules</strong></h3>
+                <p>Check out next games in regional league which will be held in the <br> next month in city sport arenas.
+                </p>
+            </div>
+
+            <!-- slick slider -->
+            <div class="slider-one d-flex">
+                <div class="slide-items d-flex">
+                    <img src="./page-imgs/white_races_logo_01.png" alt="white-logo">
+                    <div class="slide-items-desc">
+                        <span>Home arena</span>
+                        <h5 class="span-color fw-bolder">La Liga spain</h5>
+                        <span>MON At 02:29:2021</span>
+                    </div>
+                </div>
+                <div class="slide-items d-flex">
+                    <img src="./page-imgs/white_races_logo_02.png" alt="white-logo">
+                    <div class="slide-items-desc">
+                        <span>Home arena</span>
+                        <h5 class="span-color fw-bolder">La Liga spain</h5>
+                        <span>MON At 02:29:2021</span>
+                    </div>
+                </div>
+                <div class="slide-items d-flex">
+                    <img src="./page-imgs/white_races_logo_03.png" alt="white-logo">
+                    <div class="slide-items-desc">
+                        <span>Home arena</span>
+                        <h5 class="span-color fw-bolder">La Liga spain</h5>
+                        <span>MON At 02:29:2021</span>
+                    </div>
+                </div>
+                <div class="slide-items d-flex">
+                    <img src="./page-imgs/white_races_logo_04.png" alt="white-logo">
+                    <div class="slide-items-desc">
+                        <span>Home arena</span>
+                        <h5 class="span-color fw-bolder">La Liga spain</h5>
+                        <span>MON At 02:29:2021</span>
+                    </div>
+                </div>
+                <div class="slide-items d-flex">
+                    <img src="./page-imgs/white_races_logo_05.png" alt="white-logo">
+                    <div class="slide-items-desc">
+                        <span>Home arena</span>
+                        <h5 class="span-color fw-bolder">La Liga spain</h5>
+                        <span>MON At 02:29:2021</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ Game schedules section -->
+
+        <!-- About oxygen section -->
+        <section class="about" data-aos="fade">
+            <div class="inner-about row">
+                <div class="about-headline col-lg-6 col-md-12">
+                    <span class="text-uppercase">learn more</span>
+                    <h3 class="about-headTxt">About <strong class="span-color fw-bolder">oxygen</strong></h3>
+                    <p class="about-sub-heading">The Club provides children the opportunity to learn and develop Football skills.</p>
+
+                    <p style="font-size: 13px; line-height: 2;">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world
+                        view of disruptive innovation via workplace diversity and empowerment.
+                    </p>
+                    <p style="font-size: 13px; margin-bottom: 2rem; line-height: 2">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User
+                        generated content in real-time will have multiple touchpoints.
+                    </p>
+
+                    <div class="about-btns">
+                        <a href="#" class="btn-main mb-2 me-2">Join the club</a>
+                        <a href="#" class="btn-main main-btn-2">Learn more</a>
+                    </div>
+                </div>
+                <div class="about-hero-img col-lg-6 col-md-12">
+                    <img src="./page-imgs/about.jpg" alt="about section image">
+                </div>
+            </div>
+        </section>
+        <!-- /about section -->
+
+        <!-- Principles section -->
+        <section class="principles" data-aos="fade">
+            <div class="principle-headline pt-5">
+                <span class="text-uppercase">Football club</span>
+                <h3 class="text-uppercase">Our <span class="span-color fw-bolder">Principles</span></h3>
+                <p>All awards recognize the player with the highest percentage of overall improvement in all events.</p>
+            </div>
+            <div class="principles-cards row pb-5">
+                <div class="col-lg-3 col-md-6 card" data-aos="fade-up" data-aos-delay="50">
+                    <div class="pinciple-symbol">
+                        <span class="btn-main bt-main-2 cards-symbols"><i class="fas fa-calculator"></i></span>
+                    </div>
+                    <h4>Team work</h4>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla iure consectetur tatibus eos accusantium!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pinciple-symbol">
+                        <span class="btn-main bt-main-2 cards-symbols"><i class="fas fa-futbol"></i></span>
+                    </div>
+                    <h4>Membership</h4>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla iure consectetur tatibus eos accusantium!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pinciple-symbol">
+                        <span class="btn-main bt-main-2 cards-symbols"><i class="far fa-hand-rock"></i></span>
+                    </div>
+                    <h4>Encourage</h4>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla iure consectetur tatibus eos accusantium!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="pinciple-symbol">
+                        <span class="btn-main bt-main-2 cards-symbols"><i class="fas fa-basketball-ball"></i></span>
+                    </div>
+                    <h4>sportship</h4>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla iure consectetur tatibus eos accusantium!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ Principles section -->
+
+        <!-- our players section -->
+        <section class="our-players" data-aos="fade">
+            <div class="player-slide-parent">
+                <div class="players-headline">
+                    <h3 class="text-uppercase">our <b class="fw-bolder">players</b></h3>
+                    <p>Senior players with the highest improvement in all games.</p>
+                </div>
+                <div class="players-slide">
+                    <div class="player-inner-slider">
+                        <div class="players-items">
+                            <div class="players">
+                                <img src="./page-imgs/player1.jpg" alt="">
+                            </div>
+                            <div class="players-desc">
+                                <span>Football</span>
+                                <h4>Player One</h4>
+                            </div>
+                        </div>
+                        <div class="players-items">
+                            <div class="players">
+                                <img src="./page-imgs/player2.jpg" alt="">
+                            </div>
+                            <div class="players-desc">
+                                <span>Football</span>
+                                <h4>Player One</h4>
+                            </div>
+                        </div>
+                        <div class="players-items">
+                            <div class="players">
+                                <img src="./page-imgs/player3.jpg" alt="">
+                            </div>
+                            <div class="players-desc">
+                                <span>Football</span>
+                                <h4>Player One</h4>
+                            </div>
+                        </div>
+                        <div class="players-items">
+                            <div class="players">
+                                <img src="./page-imgs/player4.jpg" alt="">
+                            </div>
+                            <div class="players-desc">
+                                <span>Football</span>
+                                <h4>Player One</h4>
+                            </div>
+                        </div>
+                        <div class="players-items">
+                            <div class="players">
+                                <img src="./page-imgs/player5.jpg" alt="">
+                            </div>
+                            <div class="players-desc">
+                                <span>Football</span>
+                                <h4>Player One</h4>
+                            </div>
+                        </div>
+                        <div class="players-items">
+                            <div class="players">
+                                <img src="./page-imgs/player6.jpg" alt="">
+                            </div>
+                            <div class="players-desc">
+                                <span>Football</span>
+                                <h4>Player One</h4>
+                            </div>
+                        </div>
+                        <div class="players-items">
+                            <div class="players">
+                                <img src="./page-imgs/player7.jpg" alt="">
+                            </div>
+                            <div class="players-desc">
+                                <span>Football</span>
+                                <h4>Player One</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- description cards -->
+        <div class="desc-cards">
+            <div class="container row">
+                <div class="card col-lg-3 col-md-12" data-aos="fade-up" data-aos-delay="50">
+                    <div class="card-icon pt-4">
+                        <span class="btn-main main-btn-2"><i class="fas fa-volleyball-ball"></i></span>
+                    </div>
+                    <h3>Senior Team</h3>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse itaque quos t quisquam.</p>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-12 card-dark0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon pt-4">
+                        <span class="btn-main main-btn-2"><i class="fas fa-volleyball-ball"></i></span>
+                    </div>
+                    <h3>Senior Team</h3>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse itaque quos t quisquam.</p>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-12 card-dark1" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-icon pt-4">
+                        <span class="btn-main main-btn-2"><i class="fas fa-volleyball-ball"></i></span>
+                    </div>
+                    <h3>Senior Team</h3>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse itaque quos t quisquam.</p>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-12 card-dark2" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card-icon pt-4">
+                        <span class="btn-main main-btn-2"><i class="fas fa-volleyball-ball"></i></span>
+                    </div>
+                    <h3>Senior Team</h3>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse itaque quos t quisquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /our players section -->
+
+        <!-- Latest news section -->
+        <section class="latest-news" data-aos="fade" data-aos-offset="300">
+            <div class="latest-news-headline">
+                <span class="text-uppercase mb-3">football club</span>
+                <h2 class="mt-2 text-uppercase">Latest <span class="span-color">
+                        news
+                    </span></h2>
+            </div>
+
+            <!-- latest news cards -->
+            <div class="latest-news-cards">
+
+            </div>
+        </section>
+        <!-- /Latest news section -->
+    </main>
+
+    <!-- footer -->
+    <footer class="footer row">
+        <div class="footer-first-card-1 col-lg-3 col-md-6 col-sm-12">
+            <h5 class="text-uppercase">about football Club</h5>
+            <img src="./page-imgs/logo-footer.png" alt="">
+            <p>
+                Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive
+                innovation via workplace diversity and empowerment.
+            </p>
+        </div>
+        <div class="footer-first-card-2 col-lg-3 col-md-6 col-sm-12 mb-4 ">
+            <h5 class="text-uppercase">Instagram</h5>
+            <div class="insta-img">
+                <div class="insta-img-inner">
+                    <img src="./page-imgs/insta-img1.jpg" alt="">
+                </div>
+                <div class="insta-img-inner">
+                    <img src="./page-imgs/insta-img2.jpg" alt="">
+                </div>
+                <div class="insta-img-inner">
+                    <img src="./page-imgs/insta-img3.jpg" alt="">
+                </div>
+                <div class="insta-img-inner">
+                    <img src="./page-imgs/insta-img4.jpg" alt="">
+                </div>
+                <div class="insta-img-inner">
+                    <img src="./page-imgs/insta-img5.jpg" alt="">
+                </div>
+                <div class="insta-img-inner">
+                    <img src="./page-imgs/insta-img6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-first-card-3 col-lg-3 col-md-6 col-sm-12">
+            <h5 class="text-uppercase">twitter</h5>
+            <p class="px-1">
+                @bold_themes - 2 months Take a moment to enjoy in our all time favorite and the bestseller in its niche Craft Beer, a WordPress theme for b… https://t.co/XRO2r5MhJr
+                <p> @bold_themes - 2 months AmWerk is a clean and modern WordPress theme designed specifically for industry, manufacturing, factory, or constru… https://t.co/OK3Q2UZGHw</p>
+
+                <p> @bold_themes - 4 months Visit our WordPress themes portfolio at https://t.co/9CGS1IXA0n https://t.co/7dYwhnSO7J
+                </p>
+        </div>
+        <div class="footer-first-card-4 col-lg-3 col-md-6 col-sm-12">
+            <h5 class="text-uppercase">recent posts</h5>
+            <div class="recent-post-gal">
+                <div class="recentInner-img">
+                    <img src="./page-imgs/recent-img.jpg" alt="">
+                    <div>
+                        <small>NOVEMBER 14, 2017</small>
+                        <p>
+                            The end for a great tournament in baseball world</p>
+                    </div>
+                </div>
+                <div class="recentInner-img">
+                    <img src="./page-imgs/recent-img2.jpg" alt="">
+                    <div>
+                        <small>NOVEMBER 14, 2017</small>
+                        <p>
+                            Top 10 baseball players in the country</p>
+                    </div>
+                </div>
+                <div class="recentInner-img">
+                    <img src="./page-imgs/recent-img3.jpg" alt="">
+                    <div>
+                        <small>NOVEMBER 14, 2017</small>
+                        <p>
+                            List of all baseball positions and elements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- slick slider js -->
+    <script src="slick slider/slick.min.js"></script>
+    <!-- AOS scroll animation js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Axios js -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- main js -->
+    <script src="home.js"></script>
+</body>
+
+</html>
